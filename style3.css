@@ -5,6 +5,9 @@
   margin: 0;
   font-weight: bold;
   }
+input {
+    margin-bottom: 20px; /* Adds 10 pixels of space below each input element */
+}
   
   .header {
     position: fixed;
