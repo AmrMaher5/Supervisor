@@ -13,7 +13,7 @@ h1 {
   font-weight: bold;
 }
 .input {
-    padding: 10px 20px; /* Adds 10 pixels of space below each input element */
+    margin-bottom: 10px; /* Adds 10 pixels of space below each input element */
 }
 
 .header {
