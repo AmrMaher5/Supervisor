@@ -5,9 +5,10 @@ h1 {
   margin-top: 5px;
   font-weight: bold;
 }
-input {
-   padding: 0px 20px; /* Adds 10 pixels of space below each input element */
+.input {
+    margin-bottom: 10px; /* Adds 10 pixels of space below each input element */
 }
+
 
 .header {
   position: fixed;
