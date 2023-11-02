@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sales</title>
+    <link rel="stylesheet" href="style3.css">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+</head>
+<body>
+    <header>
+        <a href="index.html" class="logo"> Supervisor</a>
+        <nav class="nav">
+            <a href="index.html">Homepage</a>
+            <a href="index2.html">Customer</a>
+            <a href="index3.html">Sales</a>
+            <a href="index4.html">stores</a>
+            <a href="https://amrmaherfawziabdeleh1237.blogspot.com/">website</a>
+        </nav>
+    </header>
+    <div class="container">
+        <div class="input">
+            <input placeholder="Title" type="text" id="title">
+            <div class="price">
+                <input type="number" id="price" placeholder="Price" oninput="getTotal();">
+                <input type="number" id="taxes" placeholder="Taxes" oninput="getTotal();">
+                <input type="number" id="ads" placeholder="Ads" oninput="getTotal();">
+                <input type="number" id="discount" placeholder="Discount" oninput="getTotal();">
+                <small id="total"></small>
+            </div>
+            <input placeholder="Count" type="number" id="count">
+            <input placeholder="Category" type="text" id="category">
+            <button onclick="submitButton()" id="submit">Create</button>
+        </div>
+        <div id="output"></div>
+        <div class="output">
+            <div class="searchBlock">
+                <input onkeyup="searchData(this.value)" type="text" id="search" placeholder="Search">
+                <div class="btnsearch">
+                    <button onclick="searchMood('title')" id="searchTitleButton">Search by Title</button>
+                    <button onclick="searchMood('category')" id="searchCategoryButton">Search by Category</button>
+                </div>
+            </div>
+            <div id="deleteAll"></div>
+            <table>
+                <thead>
+                    <tr>
+                        <th>ID</th>
+                        <th>Title</th>
+                        <th>Price</th>
+                        <th>Taxes</th>
+                        <th>Ads</th>
+                        <th>Discount</th>
+                        <th>Total</th>
+                        <th>Category</th>
+                        <th>Update</th>
+                        <th>Delete</th>
+                    </tr>
+                </thead>
+                <tbody id="tbody"></tbody>
+            </table>
+        </div>
+    </div>
+    <script src="main.js"></script>
+</body>
+</html>

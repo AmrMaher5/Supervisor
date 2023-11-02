@@ -1,0 +1,154 @@
+logo {
+  text-align: center;
+  color: #1e3ffc;
+  font-size: 24px;
+  margin: 0;
+  font-weight: bold;
+}
+h1 {
+  text-align: center;
+  color: #666;
+  font-size: 14px;
+  margin-top: 5px;
+  font-weight: bold;
+}
+
+.header {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  background-color: #ffffff;
+  color: #4958ff;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 30px;
+  z-index: 999;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+}
+.nav {
+  color: #000;
+  background-color: #ffffff;
+  display: flex;
+  justify-content: flex-end;
+  text-align: right;
+  text-transform: uppercase;
+  font-size: 1.1em;
+  font-weight: 400;
+  padding-right: 20px;
+  margin-right: 20px; /* Add space between the elements */
+  transition: color 0.3s ease;
+}
+
+.nav:hover {
+  color: #cecbcb;
+}
+
+.nav a {
+  margin-right: 20px;
+}
+  
+.input {
+  margin-bottom: 20px;
+}
+
+.input input[type="text"],
+.input input[type="number"] {
+  padding: 5px;
+  margin-bottom: 10px;
+  width: 200px;
+  border-radius: 3px;
+  border: 1px solid #ccc;
+}
+
+.price {
+  margin-bottom: 10px;
+}
+
+.price input {
+  width: 80px;
+  margin-right: 5px;
+}
+
+#total {
+  background: #fc3d3d;
+  padding: 5px 2px;
+  border-radius: 4px;
+}
+
+#total::before {
+  content: 'total:';
+}
+
+#submit {
+  padding: 5px 10px;
+  border: none;
+  background-color: #4CAF50;
+  color: #fff;
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+.output {
+  margin-bottom: 20px;
+}
+
+.searchBlock input[type="text"] {
+  padding: 5px;
+  width: 200px;
+  border-radius: 3px;
+  border: 1px solid #ccc;
+}
+
+.btnsearch button {
+  margin-top: 5px 0;
+  padding: 5px 10px;
+  border: none;
+  background-color: #4CAF50;
+  color: #fff;
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+th, td {
+  padding: 8px;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+}
+
+th {
+  background-color: #f2f2f2;
+}
+
+#update, #delete {
+  padding: 5px 10px;
+  border: none;
+  background-color: #4CAF50;
+  color: #fff;
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+.DeletAll {
+  padding: 5px 10px;
+  border: none;
+  background-color: #4CAF50;
+  color: #54f52c;
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+
+
+.logo {
+  text-align: right;
+  color: #4CAF50;
+  font-size: 24px;
+  margin: 0;
+  font-weight: bold;
+}

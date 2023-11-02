@@ -1,0 +1,20 @@
+F:\Super-Pfizer\New folder\Supervisor\bin\Debug\Supervisor.exe.config
+F:\Super-Pfizer\New folder\Supervisor\bin\Debug\Supervisor.exe
+F:\Super-Pfizer\New folder\Supervisor\bin\Debug\Supervisor.pdb
+F:\Super-Pfizer\New folder\Supervisor\obj\Debug\Supervisor.csproj.AssemblyReference.cache
+F:\Super-Pfizer\New folder\Supervisor\obj\Debug\Supervisor.Form1.resources
+F:\Super-Pfizer\New folder\Supervisor\obj\Debug\Supervisor.Properties.Resources.resources
+F:\Super-Pfizer\New folder\Supervisor\obj\Debug\Supervisor.csproj.GenerateResource.cache
+F:\Super-Pfizer\New folder\Supervisor\obj\Debug\Supervisor.csproj.CoreCompileInputs.cache
+F:\Super-Pfizer\New folder\Supervisor\obj\Debug\Supervisor.exe
+F:\Super-Pfizer\New folder\Supervisor\obj\Debug\Supervisor.pdb
+F:\Supervisor\Supervisor\bin\Debug\Supervisor.exe.config
+F:\Supervisor\Supervisor\bin\Debug\Supervisor.exe
+F:\Supervisor\Supervisor\bin\Debug\Supervisor.pdb
+F:\Supervisor\Supervisor\obj\Debug\Supervisor.csproj.AssemblyReference.cache
+F:\Supervisor\Supervisor\obj\Debug\Supervisor.Form1.resources
+F:\Supervisor\Supervisor\obj\Debug\Supervisor.Properties.Resources.resources
+F:\Supervisor\Supervisor\obj\Debug\Supervisor.csproj.GenerateResource.cache
+F:\Supervisor\Supervisor\obj\Debug\Supervisor.csproj.CoreCompileInputs.cache
+F:\Supervisor\Supervisor\obj\Debug\Supervisor.exe
+F:\Supervisor\Supervisor\obj\Debug\Supervisor.pdb

@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Bills</title>
+        <link rel="stylesheet" href="style5.css">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+</head>
+<body>
+  <h1>Fire extraction</h1>
+  <div class="input">
+    <input placeholder="Customer Name" type="text" id="customername">
+    <input placeholder="Title" type="text" id="title">
+    <div class="price">
+        <input type="number" id="price" placeholder="Price" oninput="getTotal();">
+        <input type="number" id="taxes" placeholder="Taxes" oninput="getTotal();">
+        <input type="number" id="ads" placeholder="Ads" oninput="getTotal();">
+        <input type="number" id="discount" placeholder="Discount" oninput="getTotal();">
+        <input type="number" id="quantitySold" placeholder="quantitySold" oninput="getTotal();">
+        <small id="total"></small>
+    </div>
+    <input placeholder="Date" type="date" id="theDate">
+    <button onclick="submitBtn()" id="submit">Print</button>
+    <button class="buttons-1" onclick="window.location.href='Supervisor.exe'"> Customer</button>
+</div>
+</div>
+</div>
+</div>
+  <script src="script3.js"></script>
+</body>
+</html>
